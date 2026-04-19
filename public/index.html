@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mi Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Buenos días, Jeronimo 👋</h1>
+    <p class="subtitle">La Plata · <span id="current-date"></span></p>
+  </header>
+
+  <main>
+    <section class="card" id="weather-section">
+      <h2>🌤 Clima para la semana</h2>
+      <p class="hint">Temperatura a las 7:30 AM · recomendación de ropa para salir con tu hijo</p>
+      <div id="weather-grid" class="weather-grid">Cargando clima...</div>
+    </section>
+
+    <section class="card" id="habits-section">
+      <h2>✅ Hábitos de hoy</h2>
+      <div id="habits-container"></div>
+
+      <h2 style="margin-top:2rem">🏆 Logros</h2>
+      <div id="achievements-container"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
